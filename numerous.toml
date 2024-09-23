@@ -1,0 +1,9 @@
+name = "Template Dashboard App"
+description = "This is a template for a dashboard. It is a simple app that allows you to view a set of data in a table, filter it and show summary statistics.  You can also make some simple graphs."
+library = "panel"
+python = "3.12"
+app_file = "app.py"
+requirements_file = "requirements.txt"
+port = 80
+cover_image = "app_cover.jpg"
+exclude = ["*venv", "venv*", ".git", ".env"]

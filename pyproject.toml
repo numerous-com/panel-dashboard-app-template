@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panel-dashboard-app-template"
+readme = "README.md"
+version = "0.1.0"
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = [
+    "panel",
+    "hvplot",
+    "seaborn",
+    "perspective-python",
+    "pyarrow"
+    ]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "numerous"
+    ]
