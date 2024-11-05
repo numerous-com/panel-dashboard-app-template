@@ -1,0 +1,5 @@
+panel
+pandas
+seaborn
+perspective-python
+hvplot

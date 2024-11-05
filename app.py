@@ -1,7 +1,6 @@
 import panel as pn
 import pandas as pd
 import seaborn as sns
-from perspective import PerspectiveViewer
 import hvplot.pandas
 
 # Ensure Panel extensions are loaded
